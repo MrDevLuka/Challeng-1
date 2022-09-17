@@ -1,0 +1,15 @@
+@media (max-width: 36em) {
+  .main-container {
+    grid-template-columns: 1fr;
+    max-width: 356px;
+  }
+  .image {
+    display: none;
+  }
+  .image2 {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+  }
+}
